@@ -1,0 +1,53 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+button{ 
+    background: darkgray;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main{ 
+    text-align: center;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+img{
+    max-width: 100%;
+    
+}
+
+.full-screen {
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.passo0 { background-color: rgb(25, 25, 112); }
+.passo1 { background-color: rgb(255, 69, 0); }
+.passo2 { background-color: rgb(72, 61, 139); }
+.passo5 { background-color: rgb(173, 216, 230); }
+.passo6 { background-color: rgb(255, 140, 0); }
+.passo7 { background-color: rgb(0, 191, 255); }
+.passo8 { background-color: rgb(135, 206, 250); }
+.passo9 { background-color: rgb(0, 255, 127); }
+.passo10 { background-color: rgb(255, 99, 71); }
+.passo11 { background-color: rgb(75, 0, 130); }
+.passo12 { background-color: rgb(0, 128, 128); }
+.passo3 { background-color: rgb(255, 215, 0); }
+.passo4 { background-color: rgb(169, 169, 169); }

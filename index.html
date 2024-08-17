@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Caça ao Tesouro Espacial</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo full-screen passo0" id="passo-0">
+            <img src="imgs/cenario-passo-0.jpeg" alt="">
+            <p>Um dia, enquanto explorava os antigos arquivos da estação espacial, você encontrou uma mensagem
+                codificada sobre um planeta perdido, oculto por maravilhas e riquezas cósmicas. A mensagem continha
+                pistas para encontrar esse planeta, e você decidiu segui-las!</p>
+            <button class="btn-proximo" data-proximo="1">Marte</button>
+            <button class="btn-proximo" data-proximo="2">Titan (Lua de Saturno).</button>
+        </div>
+        <div class="passo full-screen passo1" id="passo-1">
+            <img src="imgs/cenario-passo-1.jpeg" alt="">
+            <p>Você começa sua jornada em Marte, escalando o Monte Olimpo ao amanhecer para encontrar a primeira pista.
+            </p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no cume do Monte Olimpo</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para a estação espacial</button>
+        </div>
+        <div class="passo full-screen passo2" id="passo-2">
+            <img src="imgs/cenario-passo2.jpeg" alt="">
+            <p>Em Titan, você explora as ruínas antigas deixadas por uma civilização perdida. Na mensagem, uma das
+                pistas indica que para localizar a entrada para o planeta perdido você deve procurar a próxima pista em
+                uma das cavernas de gelo. Onde você começa?</p>
+            <button class="btn-proximo" data-proximo="5">Explorar as Cavernas de Gelo Antigas</button>
+            <button class="btn-proximo" data-proximo="6">Investigar as Dunas de Metano</button>
+        </div>
+        <div class="passo full-screen passo3" id="passo-3">
+            <img src="imgs/cenario-passo-3.jpeg" alt="">
+            <p>No cume do Monte Olimpo, você encontra uma inscrição alienígena apontando que a próxima pista está em
+                Titan, uma das luas de Saturno.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para Europa (Lua de Júpiter)</button>
+        </div>
+        <div class="passo full-screen passo4" id="passo-4">
+            <img src="imgs/cenario-passo-4.jpeg" alt="">
+            <P>Você decide que a missão é arriscada demais e retorna à estação espacial, mas sempre se pergunta o que
+                poderia ter encontrado.</P>
+            <button class="btn-proximo" data-proximo="13">sair</button>
+        </div>
+        <div class="passo full-screen passo5" id="passo-5">
+            <img src="imgs/cenario-passo-5.jpeg" alt="">
+            <p>Nas cavernas, você descobre um holograma escondido atrás de uma parede de gelo, apontando que a próxima
+                pista está em Europa.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para Europa (Lua de Júpiter)</button>
+        </div>
+        <div class="passo full-screen passo6" id="passo-6">
+            <img src="imgs/cenario-passo-6.jpeg" alt="">
+            <p>Explorando as dunas, você encontra um mineral raro, mas sem mais pistas. Isso parece um beco sem saída.
+            </p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar as Cavernas</button>
+        </div>
+        <div class="passo full-screen passo7" id="passo-7">
+            <img src="imgs/cenario-passo-7.jpeg" alt="">
+            <p>Em Europa, a busca pelo planeta perdido se intensifica. Você se depara com um oceano subterrâneo
+                bifurcado.
+            </p>
+            <button class="btn-proximo" data-proximo="9">Explorar o túnel à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Explorar o túnel à direita</button>
+        </div>
+        <div class="passo full-screen passo8" id="passo-8">
+            <img src="imgs/cenario-passo-8.jpeg" alt="">
+            <p>De volta às cavernas, você finalmente encontra o holograma escondido. Agora, para Europa!</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para Europa (Lua de Júpiter)</button>
+        </div>
+        <div class="passo full-screen passo9" id="passo-9">
+            <img src="imgs/cenario-passo-9.jpeg" alt="">
+            <p>O túnel à esquerda leva você a uma caverna iluminada por cristais brilhantes que revelam a entrada para o
+                planeta perdido.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o planeta perdido</button>
+        </div>
+        <div class="passo full-screen passo10" id="passo-10">
+            <img src="imgs/cenario-passo-10.jpeg" alt="">
+            <p>O túnel à direita termina em uma caverna desmoronada. Apesar das belezas naturais, não há sinais do
+                planeta perdido aqui.</p>
+            <button class="btn-proximo" data-proximo="7">Retornar e tentar o outro túnel</button>
+        </div>
+        <div class="passo full-screen passo11" id="passo-11">
+            <img src="imgs/cenario-passo-11.jpeg" alt="">
+            <p>Dentro do planeta perdido, você descobre maravilhas cósmicas e decide se dedicar a estudar e preservar
+                este lugar.
+            </p>
+        </div>
+        <div class="passo full-screen passo12" id="passo-12">
+            <img src="imgs/cenario-passo-12.jpeg" alt="">
+            <p>Retornando e escolhendo o túnel à esquerda, você finalmente encontra a caverna com os cristais brilhantes
+                e a entrada para o planeta perdido.
+            </p>
+            <button class="btn-proximo" data-proximo="11">Explorar o planeta perdido</button>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
